@@ -1,0 +1,32 @@
+PAM ID in my auto = 00000215
+DATA for IAM to open Parking Menu
+=============
+=============
+Front deactivated park send
+  xx xx xx xx 38 xx xx xx
+
+Front activated park send
+  xx xx xx xx 39 xx xx xx
+------------
+Rear deactivated park send
+  xx xx xx xx B8 xx xx xx
+
+Front + Rear activated park send
+  xx xx xx xx B9 xx xx xx
+
+==========================================
+Examples
+Front
+CA 00 1C C0 39 00 67 20
+CA 00 1C C0 39 00 4A 40
+CA 00 1C C0 39 00 4E 60
+D2 00 1C C0 39 00 52 80
+
+REAR
+
+DA 00 00 00 B9 00 5A C0
+F1 0C 6F 9A B9 00 00 00
+ED 0C 6F 7A B9 00 00 00
+F1 0C 6F 9A B9 00 00 00
+
+Maybe first 4 bits for rear parkings and last 3 bits for front parkings
