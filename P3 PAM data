@@ -1,17 +1,17 @@
 PAM ID in my auto = 00000215
-DATA for IAM to open Parking Menu
+DATA for IAM to open ICM image
 =============
 =============
-Front deactivated park send
+Front deactivated ICM image send
   xx xx xx xx 38 xx xx xx
 
-Front activated park send
+Front activated ICM image send
   xx xx xx xx 39 xx xx xx
 ------------
-Rear deactivated park send
+Rear deactivated ICM image send
   xx xx xx xx B8 xx xx xx
 
-Front + Rear activated park send
+Front + Rear activated ICM image send
   xx xx xx xx B9 xx xx xx
 
 ==========================================
@@ -29,4 +29,6 @@ F1 0C 6F 9A B9 00 00 00
 ED 0C 6F 7A B9 00 00 00
 F1 0C 6F 9A B9 00 00 00
 
-Maybe first 4 bits for rear parkings and last 3 bits for front parkings
+Maybe 
+first 4 bits for rear sensors
+first bit and last 3 bits for front sensors
